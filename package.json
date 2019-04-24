@@ -3,7 +3,7 @@
     "author": "Jamen Marz <me@jamenmarz.com>",
     "description": "Prerendering for @finepoint/hyperapp-page.",
     "main": "src/prerender.js",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "repository": "https://github.com/finepoint-dev/hyperapp-prerender",
     "dependencies": {
         "@finepoint/hyperapp-page": "0.3.0",
