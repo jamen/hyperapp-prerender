@@ -28,12 +28,12 @@ export function prerender ({ prestate, view, head, script }) {
         head.children.push(
             h('script', { innerHTML: 'window.prestate=' + JSON.stringify(prestate) })
         )
-    }
 
-    const page = getPage(prestate)
+        const page = getPage(prestate)
 
-    if (head && page && page.head) {
-        mergeHead(head, resolveNode(page.head))
+        if (head && page && page.head) {
+            mergeHead(head, resolveNode(page.head))
+        }
     }
 
     return renderToStream(doc, prestate)
