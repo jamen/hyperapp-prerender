@@ -6,8 +6,8 @@
     "version": "0.2.0",
     "repository": "https://github.com/finepoint-dev/hyperapp-prerender",
     "dependencies": {
+        "@finepoint/hyperapp-head": "0.2.1",
         "@finepoint/hyperapp-page": "0.3.0",
-        "@finepoint/hyperapp-head": "0.2.0",
         "hyperapp": "1.2.9",
         "hyperapp-render": "3.1.0"
     }
